@@ -1,5 +1,6 @@
 {
   "name": "test-zikmes",
+  "homepage": "https://dimitry-prog.github.io/test-zikmes/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "gh-pages": "gh-pages -d build",
+    "deploy": "npm run build && npm run gh-pages"
   },
   "eslintConfig": {
     "extends": [
@@ -36,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0"
   }

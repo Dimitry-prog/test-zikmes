@@ -1,0 +1,82 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+  padding: 20px 40px 40px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  background-color: lightgray;
+  @media screen and (max-width: 510px) {
+    width: 290px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  &__wrap {
+    width: 100%;
+    display: flex;
+    position: relative;
+    transform: skew(-45deg);
+    border: 1px solid white;
+    @media screen and (max-width: 510px) {
+      transform: skew(0deg);
+    }
+
+    &_btn {
+      background-color: red;
+      border: 1px solid white;
+
+      &:hover {
+        background-color: crimson;
+      }
+    }
+
+    input {
+      width: 100%;
+      padding: 10px 15px;
+      transform: skew(45deg);
+      @media screen and (max-width: 510px) {
+        transform: skew(0deg);
+      }
+    }
+
+    span {
+      width: 100%;
+      position: absolute;
+      top: 100%;
+      left: 40px;
+      font-size: 14px;
+      color: red;
+      transform: skew(45deg);
+      @media screen and (max-width: 510px) {
+        transform: skew(0deg);
+        left: 0;
+      }
+    }
+
+  }
+
+  button[type='submit'] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: white;
+    transform: skew(45deg);
+    @media screen and (max-width: 510px) {
+      transform: skew(0deg);
+    }
+
+    &:disabled {
+      opacity: 0.7;
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+
+}

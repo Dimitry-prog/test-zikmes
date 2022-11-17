@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/test-zikmes/static/css/main.c9aae5f2.css",
+    "main.js": "/test-zikmes/static/js/main.680848ab.js",
+    "static/media/wrong.svg": "/test-zikmes/static/media/wrong.df8eddf661ff88f2d0efd3d570d14309.svg",
+    "static/media/succsess.svg": "/test-zikmes/static/media/succsess.1b6082f862eac35e2514460237d96ecc.svg",
+    "index.html": "/test-zikmes/index.html",
+    "static/media/close.svg": "/test-zikmes/static/media/close.039f1f5203f653b4bacd.svg",
+    "main.c9aae5f2.css.map": "/test-zikmes/static/css/main.c9aae5f2.css.map",
+    "main.680848ab.js.map": "/test-zikmes/static/js/main.680848ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9aae5f2.css",
+    "static/js/main.680848ab.js"
+  ]
+}
